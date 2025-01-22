@@ -20,6 +20,7 @@ namespace HelloCSharp
             {
                 case "1":
                 case "one":
+                case "uno":
                 case "option one":
                 case "option 1":
                     TimeDisplay.ShowTime();
