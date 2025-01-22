@@ -4,22 +4,21 @@ namespace HelloCSharp
 {
     class InputHandler
     {
+        string input;
         public InputHandler()
         {
-
+           input = string.Empty;
         }
 
         public void GetInput()
         {
-            Console.WriteLine("Option 1: Dispaly time");
+            if(input == string.Empty)
+            {
+            Console.WriteLine("Option 1: Display time");
             Console.WriteLine("Option 2: Display date");
             Console.WriteLine("Option 3: Display day of the week");
             Console.WriteLine("Please select an option:");
-            string input = Console.ReadLine();
-            if (input == null)
-            {
-                Console.WriteLine("No input received, please try again.");
-                return;
+            input = Console.ReadLine() ?? string.Empty;
             }
             switch (input.ToLower())
             {
@@ -28,20 +27,20 @@ namespace HelloCSharp
                 case "uno":
                 case "option one":
                 case "option 1":
-                    TimeDisplay.ShowTime();
+                    input = TimeDisplay.Show();
                     break;
                 case "2":
                 case "two":
                 case "option two":
                 case "option 2":
-                    DateDisplay.ShowDate();
+                    input = DateDisplay.Show();
                     break;
                 case "3":
                 case "three":
                 case "option three":
                 case "tree":
                 case "option 3":
-                    DayDisplay.ShowDay();
+                    input = DayDisplay.Show();
                     break;
                 case "quit":
                 case "leave":
@@ -54,37 +53,44 @@ namespace HelloCSharp
                 default:
                     Console.WriteLine("That input is incorrect, please try again.");
                     break;
+            
             }
         }
     }
 
+    interface IDisplay
+    {
+        string Show();
+        static string continueMessage = "Press Enter to continue or select a different option...";
+    }
+
     static class TimeDisplay
     {
-        public static void ShowTime()
+        public static string Show()
         {
             Console.WriteLine("Current Time: " + DateTime.Now.ToString("hh:mm:ss tt"));
-            Console.WriteLine("Press Enter to continue...");
-            Console.ReadLine();
+            Console.WriteLine(IDisplay.continueMessage);
+            return Console.ReadLine() ?? string.Empty;
         }
     }
 
     static class DateDisplay
     {
-        public static void ShowDate()
+        public static string Show()
         {
             Console.WriteLine("Current Date: " + DateTime.Now.ToString("MM/dd/yyyy"));
-            Console.WriteLine("Press Enter to continue...");
-            Console.ReadLine();
+            Console.WriteLine(IDisplay.continueMessage);
+            return Console.ReadLine() ?? string.Empty;
         }
     }
 
     static class DayDisplay
     {
-        public static void ShowDay()
+        public static string Show()
         {
             Console.WriteLine("Current Day: " + DateTime.Now.ToString("dddd"));
-            Console.WriteLine("Press Enter to continue...");
-            Console.ReadLine();
+            Console.WriteLine(IDisplay.continueMessage);
+            return Console.ReadLine() ?? string.Empty;
         }
     }
 }
