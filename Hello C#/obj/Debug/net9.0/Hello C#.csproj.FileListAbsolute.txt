@@ -1,0 +1,28 @@
+C:\Programing Play\C#\Hello C#\bin\Debug\net9.0\appsettings.Development.json
+C:\Programing Play\C#\Hello C#\bin\Debug\net9.0\appsettings.json
+C:\Programing Play\C#\Hello C#\bin\Debug\net9.0\Hello C#.staticwebassets.endpoints.json
+C:\Programing Play\C#\Hello C#\bin\Debug\net9.0\Hello C#.exe
+C:\Programing Play\C#\Hello C#\bin\Debug\net9.0\Hello C#.deps.json
+C:\Programing Play\C#\Hello C#\bin\Debug\net9.0\Hello C#.runtimeconfig.json
+C:\Programing Play\C#\Hello C#\bin\Debug\net9.0\Hello C#.dll
+C:\Programing Play\C#\Hello C#\bin\Debug\net9.0\Hello C#.pdb
+C:\Programing Play\C#\Hello C#\obj\Debug\net9.0\Hello C#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Programing Play\C#\Hello C#\obj\Debug\net9.0\Hello C#.AssemblyInfoInputs.cache
+C:\Programing Play\C#\Hello C#\obj\Debug\net9.0\Hello C#.AssemblyInfo.cs
+C:\Programing Play\C#\Hello C#\obj\Debug\net9.0\Hello C#.csproj.CoreCompileInputs.cache
+C:\Programing Play\C#\Hello C#\obj\Debug\net9.0\Hello C#.MvcApplicationPartsAssemblyInfo.cache
+C:\Programing Play\C#\Hello C#\obj\Debug\net9.0\scopedcss\bundle\Hello C#.styles.css
+C:\Programing Play\C#\Hello C#\obj\Debug\net9.0\staticwebassets.build.json
+C:\Programing Play\C#\Hello C#\obj\Debug\net9.0\staticwebassets.development.json
+C:\Programing Play\C#\Hello C#\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Programing Play\C#\Hello C#\obj\Debug\net9.0\staticwebassets\msbuild.Hello C#.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Programing Play\C#\Hello C#\obj\Debug\net9.0\staticwebassets\msbuild.Hello C#.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Programing Play\C#\Hello C#\obj\Debug\net9.0\staticwebassets\msbuild.build.Hello C#.props
+C:\Programing Play\C#\Hello C#\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.Hello C#.props
+C:\Programing Play\C#\Hello C#\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.Hello C#.props
+C:\Programing Play\C#\Hello C#\obj\Debug\net9.0\staticwebassets.pack.json
+C:\Programing Play\C#\Hello C#\obj\Debug\net9.0\Hello C#.dll
+C:\Programing Play\C#\Hello C#\obj\Debug\net9.0\refint\Hello C#.dll
+C:\Programing Play\C#\Hello C#\obj\Debug\net9.0\Hello C#.pdb
+C:\Programing Play\C#\Hello C#\obj\Debug\net9.0\Hello C#.genruntimeconfig.cache
+C:\Programing Play\C#\Hello C#\obj\Debug\net9.0\ref\Hello C#.dll
