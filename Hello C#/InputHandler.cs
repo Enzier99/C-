@@ -16,6 +16,11 @@ namespace HelloCSharp
             Console.WriteLine("Option 3: Display day of the week");
             Console.WriteLine("Please select an option:");
             string input = Console.ReadLine();
+            if (input == null)
+            {
+                Console.WriteLine("No input received, please try again.");
+                return;
+            }
             switch (input.ToLower())
             {
                 case "1":
