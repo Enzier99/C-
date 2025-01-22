@@ -40,6 +40,7 @@ namespace HelloCSharp
                 case "quit":
                 case "leave":
                 case "I want out":
+                case "I want to leave":
                 case "exit":
                     Console.WriteLine("Exiting the program, Press enter to continue...");
                     Console.ReadLine();
