@@ -26,6 +26,7 @@ namespace HelloCSharp
                     break;
                 case "2":
                 case "two":
+                case "duo":
                 case "option two":
                 case "option 2":
                     DateDisplay.ShowDate();
