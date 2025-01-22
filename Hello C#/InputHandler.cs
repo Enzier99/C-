@@ -32,6 +32,7 @@ namespace HelloCSharp
                     break;
                 case "2":
                 case "two":
+                case "duo":
                 case "option two":
                 case "option 2":
                     DateDisplay.ShowDate();
@@ -46,6 +47,7 @@ namespace HelloCSharp
                 case "quit":
                 case "leave":
                 case "I want out":
+                case "I want to leave":
                 case "exit":
                     Console.WriteLine("Exiting the program, Press enter to continue...");
                     Console.ReadLine();
