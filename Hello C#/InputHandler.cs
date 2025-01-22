@@ -33,6 +33,7 @@ namespace HelloCSharp
                 case "3":
                 case "three":
                 case "option three":
+                case "tree":
                 case "option 3":
                     DayDisplay.ShowDay();
                     break;
