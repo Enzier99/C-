@@ -37,6 +37,7 @@ namespace HelloCSharp
                     DayDisplay.ShowDay();
                     break;
                 case "quit":
+                case "leave":
                 case "exit":
                     Console.WriteLine("Exiting the program, Press enter to continue...");
                     Console.ReadLine();
